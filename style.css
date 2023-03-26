@@ -493,7 +493,7 @@ button.download {
 button.download:hover {
   padding: 10px 15px;
   border-radius: 7px;
-  background-color: transparent;
+  background-color: rgb(100, 6, 6);
   color: white;
   cursor: pointer;
   display: flex;
@@ -501,7 +501,7 @@ button.download:hover {
   margin-right: auto;
   margin-top: 30px;
   letter-spacing: 1px;
-  box-shadow: 0 0 30px rgb(100, 6, 6);
+  box-shadow: 0 0 50px rgb(100, 6, 6);
 }
 @media (max-width:916px){
   h4{
