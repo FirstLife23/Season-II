@@ -488,6 +488,20 @@ button.download {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  box-shadow: 0 0 30px rgb(100, 6, 6);
+}
+button.download:hover {
+  padding: 10px 15px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  box-shadow: 0 0 30px rgb(100, 6, 6);
 }
 @media (max-width:916px){
   h4{
