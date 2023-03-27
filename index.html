@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Life Network</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="https://media.discordapp.net/attachments/1062162059225223188/1086004293187932180/970D249A-DA2E-496F-812E-221CF2827BD6.png?width=427&height=427" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
@@ -51,9 +52,9 @@
    <hr>
         <section>
             <br>
-            <h2>Our Official Servers</h2>
-            <hr style="width: 15%;display: flex;margin: auto auto 7px;margin-top: 7px;">
-            <div class="servers">
+            <h2 data-aos="fade-up" data-aos-duration="2000">Our Official Servers</h2>
+            <hr style="width: 15%;display: flex;margin: auto auto 7px;margin-top: 7px;"  data-aos-duration="2000" data-aos="fade-up">
+            <div class="servers" data-aos-duration="2000" data-aos="fade-up">
                 <div class="mta">
                     <div class="name">
                         <h3><img src="http://media.moddb.com/images/downloads/1/47/46326/mtasa.png" style="width: 50px;height: 40px;display: inline;align-items: center;"> Multi Theft Auto</h3>
@@ -64,16 +65,16 @@
                 <iframe src="https://discord.com/widget?id=1054732193202700328&theme=dark" allowfullscreen="" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
             </div>
-            <div class="download">
-                <h2>How to join us in Mta Server </h2>
-                <hr style="width: 20%;display: flex;margin: auto auto 7px;margin-top: 7px;">
-                <small class="download">To join us in Mta you should install </small>
-                <h4>GTA Sa, to download it click in the button . <a href="https://www.downloadcomputergames.net/2020/09/download-gta-san-andreas.html"><button class="download">Click Here</button></a><br><br> Multi Theft Auto, to download it click in the button .   <a href="https://multitheftauto.com/"><button class="download">Click Here</button></a></h4>
+            <div class="download" data-aos-duration="2000" data-aos="fade-up">
+                <h2  data-aos-duration="2000" data-aos="fade-up">How to join us in Mta Server </h2>
+                <hr style="width: 20%;display: flex;margin: auto auto 7px;margin-top: 7px;"  data-aos-duration="2000" data-aos="fade-up">
+                <small class="download" data-aos-duration="2000" data-aos="fade-up">To join us in Mta you should install </small>
+                <h4  data-aos-duration="2000" data-aos="fade-up">GTA Sa, to download it click in the button . <a href="https://www.downloadcomputergames.net/2020/09/download-gta-san-andreas.html"><button class="download">Click Here</button></a><br><br> Multi Theft Auto, to download it click in the button .   <a href="https://multitheftauto.com/"><button class="download">Click Here</button></a></h4>
                 <br><br>
-                <small class="downloads">Now after install GTA & MTA ,you are ready to join the server !</small>
+                <small class="downloads" data-aos-duration="2000" data-aos="fade-up">Now after install GTA & MTA ,you are ready to join the server !</small>
             </div>
 
-                <div class="numbers">
+                <div class="numbers" data-aos-duration="2000" data-aos="fade-up">
                     <button class="discord-members"><img src="./discorde (1).png"> 300+<span class="members"> Discord</span></button>
                     <button class="players-members"><img src="./utilisateur.png" > 50+<span  class="members"> Players</span></button>
                 </div>
@@ -83,7 +84,7 @@
             <div class="navbars">
                     <div class="title">
                         <h5>First Life Network</h5>
-                        <hr style="width: 110px;margin-left: 21%;">
+                        <hr style="width: 110px;margin-left: 21%;" >
                         <br>
                         <p class="navbars">- We are an arabic comunity focused on Multi Theft Auto <br>
                             A Saudi Arab institution interested in developing the experience of the Arab player <br>
@@ -103,11 +104,14 @@
                 <br>
             </div>
         </section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
+            AOS.init();
                 var icon = document.getElementById("menu")
             icon.onclick = function() {
             document.body.classList.toggle("dark-theme");
             }
+
         </script>
 </body>
 </html>
